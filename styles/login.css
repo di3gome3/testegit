@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(24, 23, 23);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+ /*CABEÇALHO*/
+ header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+ display: inline-block;
+ margin: 20px;
+}
+
+#title h1 {
+    font-weight: 400;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+a:hover {
+    color: #772AA0;
+    transition: 0.3s all;
+}
+
+#loginbtn {
+    border: 5px solid #772AA0;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#loginbtn:hover {
+    background-color: #772AA0;
+    color: white;
+}
+
+/*FIM DO CABEÇALHO*/
+main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    max-width: 500px;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 476px;
+    height: 400px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #772AA0;
+}
+
+.login {
+    width: 352px;
+    height: 50px;
+    padding: 0px 5px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.login:hover {
+    border: solid 3px #772AA0;
+    transform: scale(1.010);
+    transition: 0.3s;
+}
+
+form a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.btn {
+    width: 352px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    background-color: #772AA0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.custom-shape-divider-bottom-1672939753 {
+    position: absolute;
+    top: 550px;
+    bottom: 10;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1672939753 svg {
+    position: relative;
+    display: block;
+    width: calc(164% + 1.3px);
+    height: 214px;
+}
+
+.custom-shape-divider-bottom-1672939753 .shape-fill {
+    fill: #772AA0;
+}
+
+
+/*rgb(24, 23, 23)*/
